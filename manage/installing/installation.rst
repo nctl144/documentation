@@ -141,24 +141,24 @@ Download the latest Plone unified installer
 Download from `the plone.org download page <http://plone.org/download>`_ to your server using wget command. Curl also works.
 Substitute the latest version number for 5.0 in the instructions below.
 
-.. code-block:: shell
+.. parsed-literal::
 
-    wget --no-check-certificate https://launchpad.net/plone/5.0/5.0.4/+download/Plone-5.0.4-UnifiedInstaller.tgz
+    wget --no-check-certificate https://launchpad.net/plone/5.0/|plone5x|/+download/Plone-|plone5x|-UnifiedInstaller.tgz
 
 Run the Plone installer in standalone mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Extract the downloaded file
 
-.. code-block:: shell
+.. parsed-literal::
 
-    tar -xf Plone-5.0.4-UnifiedInstaller.tgz
+    tar -xf Plone-|plone5x|-UnifiedInstaller.tgz
 
 Go the folder containing installer script
 
-.. code-block:: shell
+.. parsed-literal::
 
-    cd Plone-5.0.4-UnifiedInstaller
+    cd Plone-|plone5x|-UnifiedInstaller
 
 .. note::
 
